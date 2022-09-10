@@ -27,7 +27,7 @@ Be aware that the lab PCs auto-shutdown during the evening, unless a user is the
 
 If you are going to be in the labs after 9 p.m. on weekdays - or any time on weekends - you should inform MRU Security Services you are in the lab by filling in the After Hours Sign-In form, which you can access using the shortcut on the lab computers' desktops:
 
-![signin](../images/signin.jpg)
+![signin](./images/signin.jpg)
 
 At a minimum, make certain you have your OneCard with you.
 
@@ -47,11 +47,11 @@ Open up a terminal by clicking on the Start menu and typing "git". (**pro tip**:
 
 Git bash should be the first or second choice; click on it to run it.
 
-![Git-bash](../images/00-run-git-bash.png)
+![Git-bash](./images/00-run-git-bash.png)
 
 This will open up a deceptively unassuming little black window that looks like this, except the part before that weirdly fuschia MINGw64 will be different:
 
-![command prompt](../images/01-cmd-prompt.png)
+![command prompt](./images/01-cmd-prompt.png)
 
 ---
 
@@ -122,7 +122,7 @@ cd 1501
 
 If you are on the lab computer, you should see the **path** in your terminal change to show that you are now working in the 1501 directory. This is similar to the path that is shown in the Windows file browser (your H drive will be different from mine):
 
-![H-drive](../images/01-h-drive.png)
+![H-drive](./images/01-h-drive.png)
 
 > If you are working on a personal computer, you probably don't have a directory named 1501 and will see this message:
 ```plaintext
@@ -142,7 +142,7 @@ ls
 
 For example, I get the following output when I list the contents of my "Documents" directory:
 
-![ls output](../images/01-ls-output.png)
+![ls output](./images/01-ls-output.png)
 
 >Depending on your configuration, you might not see all the colours and decorations (`@` or `/`) on your output. To enable this, try adding the **flag** `-F` so that your command is now `ls -F`.
 
@@ -243,7 +243,7 @@ Can you navigate from one part of the maze to another, just using the terminal? 
 
 1. Install [Git for Windows](https://gitforwindows.org/), making sure to check the "Git Bash Here" option:
 
-![git-install](../images/01-git-bash-install.png)
+![git-install](./images/01-git-bash-install.png)
 
 ### Mac
 
