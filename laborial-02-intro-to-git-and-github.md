@@ -1,4 +1,4 @@
-# Intro to Git and GitHub - version 1
+# Intro to Git and GitHub
 
 ## Introduction
 In this course, you will be using [Git](https://git-scm.com/) and [GitHub](https://github.com/) to submit your assignments. This lab introduces you to those tools, as well as the instructional assistants. This is a **graded exercise** worth 4% of your final grade.
