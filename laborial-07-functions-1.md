@@ -39,7 +39,8 @@ main()
 
 ## Part 2: Tracing
 
-1. By hand, trace the following program. Show the intermediate values assigned to each variable in `main` and `display`, then write the program output.
+1. By hand, trace the following program.  
+Show the intermediate values assigned to each variable in `main` and `display`, and write the program output.
    
    ```python
     def display(a,b):
@@ -55,7 +56,8 @@ main()
     main()
     ```
 
-1. By hand, trace the following program. Show the intermediate values assigned to each variable in `main` and `silly`, then write the program output.
+1. By hand, trace the following program.  
+Show the intermediate values assigned to each variable in `main` and `silly`, and write the program output.
 
     ```python        
     def silly(a,b,c):
@@ -79,7 +81,8 @@ main()
     main()
     ```
 
-1. By hand, trace the following program. Show the intermediate values assigned to each variable in `main` and `silly`, then write the program output.
+1. By hand, trace the following program.  
+Show the intermediate values assigned to each variable in `gold_pts`,`silver_pts`,`bronze_pts`,`total_pts`, `run`, and `global` and write the program output.
 
     ```python
     PTS_PER_GOLD = 3
