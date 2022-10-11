@@ -80,6 +80,12 @@ _Hint: when evaluating Boolean expressions, [short-circuit evaluation](https://w
 
 3. Let us define a **cardinal number** as a number we use for counting in English (1, 2, 3, 4...). Design and test a function `is_cardinal(x)` that takes in a number x - **but you don't know whether x will be a `float` or an `int`**. It returns True if x is a cardinal number.
 
+    ```python
+    is_cardinal(3)   # should return True, since 3 is an cardinal number
+    is_cardinal(0)   # should return False, since 0 is not an cardinal number
+    is_cardinal(3.0) # should return False, since 3.0 is not an cardinal number
+    ```
+
 4. (BONUS) Design and test a function which takes a year (as an integer). It returns True if that year is a leap year.  
 
    1. To begin, design and implement the function so that it determines whether or not the year is evenly divisible by 4.
