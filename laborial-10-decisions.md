@@ -5,7 +5,7 @@
 <!-- Note: combo of COMP 1631 and F21 1501 -->
 
 ## Part 1: Code analysis
-1. Copy the file named `trace_me.py`. **Without running the program**, predict what the output will be when you run the program. Next, run it. If the output is not what you predicted, try to figure out why.
+1. Copy the file named `laborial-10-trace-me.py`. **Without running the program**, predict what the output will be when you run the program. Next, run it. If the output is not what you predicted, try to figure out why.
 
 2. Determine (by examining the code, **not** trial and error!) how to make the program produce the opposite output by inverting the value of just one variable. Make the change and test to see if you were correct.
 
