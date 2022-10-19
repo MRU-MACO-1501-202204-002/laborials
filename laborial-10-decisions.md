@@ -24,7 +24,7 @@ Meal delivery service BypassTheCleaning has hired you to write their app. They o
     
     Your program should have a `main` function as well as at least one other function. You can assume the user input data type is always correct (e.g. a number will be entered when it is expected by the program).
 
-    The program should look like the following when run, where 25.32 is an examples of user input.
+    The program should look like the following when run, where 25.30 is an examples of user input.
 
     <pre>
     What is the dollar amount of the current order? <span style="color: green">25.30</span>
