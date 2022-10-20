@@ -43,5 +43,5 @@ In Part 2, you wrote a program to check if a user gets free delivery based on th
 | Distance                 | Message                                         |
 | ------------------------ | ----------------------------------------------- |
 | distance $\lt 0$         | `Invalid entry, distance must be positive`      |
-| $0 \leq$ amount $\lt 20$ | Proceed to check amount                         |
-| $20 \leq$ amount         | `Sorry, you are not eligible for free delivery` |
+| $0 \leq$ distance $\lt 20$ | Proceed to check amount                         |
+| $20 \leq$ distance         | `Sorry, you are not eligible for free delivery` |
