@@ -163,12 +163,13 @@ Let's do a little refactoring!
 ---
 
 Which of these debugging techniques did you use to find the bugs?
-    - [ ] visual inspection
-    - [ ] letting the IDE highlight syntax errors
-    - [ ] checking whether code implements the intended functionality
-    - [ ] manual code tracing
-    - [ ] commenting out some lines of code to simplify the program
-    - [ ] adding `print` statements to print out intermediate results for inspection
-    - [ ] using breakpoints and IDE debugger to step through the code
-    - [ ] calling a function with test inputs to check its functionality
-    - [ ] anything else not on this list?
+
+ - [ ] visual inspection
+ - [ ] letting the IDE highlight syntax errors
+ - [ ] checking whether code implements the intended functionality
+ - [ ] manual code tracing
+ - [ ] commenting out some lines of code to simplify the program
+ - [ ] adding `print` statements to print out intermediate results for inspection
+ - [ ] using breakpoints and IDE debugger to step through the code
+ - [ ] calling a function with test inputs to check its functionality
+ - [ ] anything else not on this list?
