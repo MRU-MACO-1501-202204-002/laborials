@@ -91,7 +91,7 @@ def test_with(angle: float, velocity: float) -> None:
 
     difference = abs(EXPECTED_DISTANCE - actual_distance)
 
-    assert difference < ACCEPTABLE_ERROR, f'the calculated distance, {actual_distance:.1f} m, is not close enough to 500 m'
+    assert difference < ACCEPTABLE_ERROR, f'the calculated distance, {actual_distance:.1f} m, is not close enough to {EXPECTED_DISTANCE} m"
 
 
 
