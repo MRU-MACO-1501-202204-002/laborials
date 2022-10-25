@@ -160,21 +160,9 @@ Let's do a little refactoring!
    5. Now do something similar to create and call a new function that calculates the distance travelled from `t`.
    6. Run the program to test that you haven't busted anything.
 
-## Exercises
-1. Paste the code above into your IDE. 
-2. Do some initial detective work by reading through the code and its comments:
-    - [ ] Do you see any mistakes in the code right away?
-    - [ ] Is the function using the quadratic formula and horizontal distance formula as intended?
-    - [ ] Does the IDE highlight any errors that would prevent the code from running?
+---
 
-3. Use the three angle-velocity pairs in Figure 1 above as test inputs to the function (read the function comments carefully & ensure you pass in appropriate values). Is the output close enough (say within 3m) to the expected 500 m?
-
-4. Manually trace the code in `calculate_landing_point` using one of the test inputs. Use a calculator to compute the expected results of each intermediate calculation.
-
-5. Now that you've done the manual trace, find and correct all the bug(s) in the code.  
-   **Hint: there are 3 bugs!**
-
-6. Which of these debugging techniques did you use to find the bugs?
+Which of these debugging techniques did you use to find the bugs?
     - [ ] visual inspection
     - [ ] letting the IDE highlight syntax errors
     - [ ] checking whether code implements the intended functionality
