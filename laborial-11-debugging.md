@@ -2,7 +2,7 @@
 
 **TOPIC: Debugging, Testing, and Refactoring**
 
-This tutorial gives you a chance to read some math formulas, debug some code, make some functions, and generally have an absolutely _wonderful_ time.
+This tutorial gives you a chance to read some physics formulas, debug some code, make some functions, and generally have an absolutely _wonderful_ time.
 
 ## Introduction
 
@@ -12,7 +12,7 @@ Unfortunately (well, for _you_), your co-worker has just won the lottery and qui
 
 ## A Bit of Useful Physics You'll Need
 
-Projectile kinematics (a.k.a. the science of lobbing s**t at places) says that for a projectile launched on a flat surface, the flight-time (time in the air, until the projectile lands) satisfies the quadratic equation:
+Projectile kinematics (a.k.a. the science of lobbing s**t at far-away places) says that for a projectile launched on a flat surface, the flight-time (the time the projectile is in the air until it lands) satisfies the quadratic equation:
 
 > ½ *g t*<sup>2</sup> + *v* sin(*a*) *t* = 0
 >  
@@ -20,7 +20,7 @@ Projectile kinematics (a.k.a. the science of lobbing s**t at places) says that f
 > *t* is the **flight time** in seconds <br>
 > *a* is the **angle of launch**  <br>
 > *v* is the **velocity of launch** in **m/s**  <br>
-> *g* is **acceleration due to gravity** (9.81 m/s<sup>2</sup> on earth) 
+> *g* is the **acceleration due to gravity** (9.81 m/s<sup>2</sup> on earth) 
 
 Given velocity *v* and angle *a*, this equation can be solved for *t* using the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula).
 
@@ -36,7 +36,17 @@ Once you've calculated a value for the flight time (t), you can find the horizon
 
 ## What Your Co-Worker Left You
 
-Your co-worker has written the function below to compute horizontal distance travelled by a projectile. The intent of the function is to accept launch angle and velocity as parameters, use the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula) to compute *t*, and then use *t* to compute (and return) *x* using the equation above.
+Your (ex)co-worker, who was no fool, did some math on paper, and identified 3 trajectories (shown below) that would cause the projectile to travel 500 m.
+
+_Note: The 80° and 65° trajectories don't exactly hit the 500 m mark - but they are "good enough"!_
+
+![trajectories](images/trajectories.png)
+
+*Figure 1: Three sample trajectories that will cause a projectile to travel 500 m*
+
+Your co-worker then made a function to compute the horizontal distance travelled by a projectile. The intent of the function is to accept a launch angle and velocity as parameters, use the [quadratic formula](https://en.wikipedia.org/wiki/Quadratic_formula) to compute *t*, and then use *t* to compute (and return) *x* using the equation above.
+
+Being no fool, they also created some code to test their distance function...but then they hit it big and bailed on you.
 
 ```python
 # gives access to cos, sin, and sqrt (square-root) functions
@@ -68,7 +78,8 @@ def calculate_landing_point(angle: float, velocity: float) -> float:
 
 def test_with(angle: float, velocity: float) -> None:
     """
-    Use a known working scenario to test calculate_landing_point
+    See whether calculate_landing_point returns
+    a value close enough to an expected distance.
 
     :param angle: launch angle for scenario, in degrees
     :param velocity: velocity for scenario, in m/s
@@ -85,6 +96,9 @@ def test_with(angle: float, velocity: float) -> None:
 
 
 def test_scenarios() -> None:
+    """
+    Use known working scenarios to test calculate_landing_point
+    """
     test_with(80, 120)
 
 
@@ -92,15 +106,7 @@ test_scenarios()
 ```
 
 
-Your (ex)co-worker already has done some math on paper, and identified 3 trajectories (shown below) that would cause the projectile to travel 500 m.
 
-They were even so good as to create a little testing function to test their function before hitting it big and bailing on you.
-
-_Note: The 80° and 65° trajectories don't exactly hit the 500 m mark - but they are "good enough"!_
-
-![trajectories](images/trajectories.png)
-
-*Figure 1: Three sample trajectories that will cause a projectile to travel 500 m*
 
 ## What You Need to Do
 
