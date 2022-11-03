@@ -16,17 +16,19 @@ When designing loops, consider the following steps:
 5. decide how to update the LCV
 
 ## Designing Loops
-1. Design and write an **algorithm** for a loop which reads 10 integers and prints out the largest. Use a `while` loop.
 
-    > Start by considering the five loop design steps listed at the top. As you make the 5 decisions, try to identify which common loop pattern will be needed.
+1. Design and write an **algorithm** for a loop which reads 10 integers and prints out the sum of those integers. Use a `while` loop.
+
+    > Start by considering the five loop design steps listed at the top.
 
 1. Re-design your solution to problem 1 so that the loop reads *all* of the integers entered by a user until an **empty string** is input. Once more, print the largest.
 
-    > How do the answers to the five loop design steps change? (Hint: how will you know when you are out of integers?) Which common loop pattern will be needed?
+    > How do the answers to the five loop design steps change? (Hint: how will you know when you are out of integers?) 
 
-3. Design and write a **Python function** for a loop which reads a sequence of characters (all in lower case), ending in an exclamation mark (e.g. a sentence), and returns the **vowel count**. Again, use a while loop.
+1. Design and write a **Python function** for a loop which reads a sequence of characters (all in lower case), ending in an exclamation mark (e.g. a sentence), and returns the **vowel count**. Again, use a while loop.
 
-    > Start by considering the five loop design steps, and identifying which common loop pattern will be needed.
+    > Start by considering the five loop design steps.
+
  
 ## Tracing Loops
 
