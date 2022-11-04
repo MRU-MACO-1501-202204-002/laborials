@@ -9,7 +9,7 @@ The goal of this lab is to gain more experience with loops, including counted lo
 
 1. Write a short Python program which reads an integer "lower bound" and an integer "upper bound" from the user, and then displays all odd integers between these bounds (inclusive).
 
-    For this exercise, use the `while` syntax.
+    Use the `while` syntax.
 
     A sample run of the program might look like:
 
@@ -22,7 +22,7 @@ The goal of this lab is to gain more experience with loops, including counted lo
     13
     15</pre>
 
-1. Write a short Python program which reads a single letter, then a sequence of letters terminated by a period. It then writes the number of times the given letter occurred in the sequence.
+1. Write a short Python program which reads a single letter, then a sequence of letters (one letter per line) terminated by a period. It then writes the number of times the given letter occurred in the sequence.
 
     You may assume the user input is valid, i.e. assume that when a letter is requested the user actually enters a letter character.  It is not necessary to add error handling, although you may wish to incorporate this if you have time.
 
@@ -51,23 +51,27 @@ The goal of this lab is to gain more experience with loops, including counted lo
     2  4  6  8 10 12 14 16 18 20 22 24
     3  6  9 12 15 18 21 24 27 30 33 36
         . . .
-    8 16 24 32 40 48 56 64 72 80 88 96 
+   12 24 36 48 60 72 84 96 108 120 132 144 
     ```
     
-    Don't worry about formatting it perfectly.
+    Don't worry about formatting.
+
+    _Hint: Write a function that uses a loop to write a single row of the output. Than call THAT function repeatedly using **another** loop in **another** function._ 
 
 ## More Challenging
-1. Design and write a complete Python program that prompts the user for a base, and then prints an isosceles triangle with that base width. If the input is **even** or **negative** then the program must terminate with an appropriate error message. For example:
 
-    <pre>
-    enter base (must be positive and odd): <span style="color: green">5</span>
+Design and write a complete Python program that prompts the user for a base, and then prints an isosceles triangle with that base width. If the input is **even** or **negative** then the program must terminate with an appropriate error message. For example:
 
-    *
-    ***
-    *****</pre>
+```text
+enter base (must be positive and odd):5
 
-    For now, ignore error checking – you can add that later.
+*
+***
+*****
+```
 
-    As always, a good way to help in problem solving is to draw pictures, and to see what should happen with sample data (e.g. we have shown you 5 – draw 7 and 9). Examine the required output to find the patterns of what must happen.
+For now, ignore error checking – you can add that later.
 
-    Come up with a high-level solution in pseudocode, then design and implement the code. 
+As always, a good way to help in problem solving is to draw pictures, and to see what should happen with sample data (e.g. we have shown you 5 – draw 7 and 9). Examine the required output to find the patterns of what must happen.
+
+Come up with a high-level solution in pseudocode, then design and implement the code. 
