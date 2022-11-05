@@ -61,7 +61,6 @@ When designing loops, consider the following steps:
    5. what is the termination condition?
    6. specifically, what would the termination condition be for an input of 7?
    7. identify the update of the loop control variable
-   8. what is the common loop pattern?
-   9. what problem is this loop solving?
+   8. what problem is this loop solving?
 
 2.  Trace the above for inputs of 11 and then 12.
