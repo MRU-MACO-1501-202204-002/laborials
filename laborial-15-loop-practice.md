@@ -7,71 +7,57 @@ The goal of this lab is to gain more experience with loops, including counted lo
 
 ## Basic Loops
 
-1. Write a short Python program which reads an integer "lower bound" and an integer "upper bound" from the user, and then displays all odd integers between these bounds (inclusive).
+### ex-01: counted loop
 
-    Use the `while` syntax.
+Write a short Python program which reads an integer "lower bound" and an integer "upper bound" from the user, and then displays all odd integers between these bounds (inclusive).
 
-    A sample run of the program might look like:
+Use the `while` syntax.
 
-    <pre>
-    enter lower bound: <span style="color: green">8</span>
-    enter upper bound: <span style="color: green">15</span>
+A sample run of the program might look like:
 
-    9
-    11
-    13
-    15</pre>
+<pre>
+enter lower bound: <span style="color: green">8</span>
+enter upper bound: <span style="color: green">15</span>
 
-1. Write a short Python program which reads a single letter, then a sequence of letters (one letter per line) terminated by a period. It then writes the number of times the given letter occurred in the sequence.
+9
+11
+13
+15</pre>
 
-    You may assume the user input is valid, i.e. assume that when a letter is requested the user actually enters a letter character.  It is not necessary to add error handling, although you may wish to incorporate this if you have time.
+### ex-02: sentinel loop
 
-    A sample run of the program might look like:
+Write a short Python program which reads a single letter (we'll call it the **_target letter_**), then a sequence of letters (one letter per line) terminated by a period. It then writes the number of times the target letter occurred in the sequence.
 
-    <pre>
-    enter letter: <span style="color: green">a</span>
-    enter sequence of letters:
+You may assume the user input is valid, i.e. assume that when a letter is requested the user actually enters a letter character.  It is not necessary to add error handling, although you may wish to incorporate this if you have time.
 
-    <span style="color: green">b</span>
-    <span style="color: green">a</span>
-    <span style="color: green">z</span>
-    <span style="color: green">z</span>
-    <span style="color: green">a</span>
-    <span style="color: green">r</span>
-    <span style="color: green">.</span>
+A sample run of the program might look like:
 
-    count of 'a' occurrences = 2</pre>
+<pre>
+enter target letter: <span style="color: green">a</span>
+enter sequence of letters:
 
-    What type of loop pattern should you use to solve this problem?
+<span style="color: green">b</span>
+<span style="color: green">a</span>
+<span style="color: green">z</span>
+<span style="color: green">z</span>
+<span style="color: green">a</span>
+<span style="color: green">r</span>
+<span style="color: green">.</span>
 
-1. Write a program that prints the first 8 lines of the multiplication table up to 12 - i.e print:
+count of 'a' occurrences = 2</pre>
 
-    ```plaintext
-    1  2  3  4  5  6  7  8  9 10 11 12
-    2  4  6  8 10 12 14 16 18 20 22 24
-    3  6  9 12 15 18 21 24 27 30 33 36
-        . . .
-   12 24 36 48 60 72 84 96 108 120 132 144 
-    ```
-    
-    Don't worry about formatting.
+### ex-03: counted loop in a counted loop
 
-    _Hint: Write a function that uses a loop to write a single row of the output. Than call THAT function repeatedly using **another** loop in **another** function._ 
+Write a program that prints the first 10 lines of the multiplication table up to 12 - i.e print:
 
-## More Challenging
-
-Design and write a complete Python program that prompts the user for a base, and then prints an isosceles triangle with that base width. If the input is **even** or **negative** then the program must terminate with an appropriate error message. For example:
-
-```text
-enter base (must be positive and odd):5
-
-*
-***
-*****
+```plaintext
+1  2  3  4  5  6  7  8  9 10 11 12
+2  4  6  8 10 12 14 16 18 20 22 24
+3  6  9 12 15 18 21 24 27 30 33 36
+    . . .
+10 20 30 40 50 60 70 80 90 100 110 120 
 ```
 
-For now, ignore error checking – you can add that later.
+Don't worry about formatting.
 
-As always, a good way to help in problem solving is to draw pictures, and to see what should happen with sample data (e.g. we have shown you 5 – draw 7 and 9). Examine the required output to find the patterns of what must happen.
-
-Come up with a high-level solution in pseudocode, then design and implement the code. 
+_Hint: Write a function that uses a loop to write a single row of the output. Than call THAT function repeatedly using **another** loop in **another** function._ 
