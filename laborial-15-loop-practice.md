@@ -3,7 +3,7 @@
 **Topic: Loop Practice**
 
 ## Introduction
-The goal of this lab is to gain more experience with loops, including counted loops, sentinel loops and nested loops.
+The goal of this lab is to gain more experience with loops, in particular counted loops and sentinel loops.
 
 ## Basic Loops
 
