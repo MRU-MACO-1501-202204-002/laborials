@@ -37,6 +37,7 @@ You must write write two Python functions to help you with your job:
     # example use
     invalid_password("h1")           # should return True; too short!
     invalid_password("12345678")     # should return True; poor choice
+    invalid_password("password")     # should return True; another poor choice
     invalid_password("PASSWORD")     # should return False; not exactly "password"
     invalid_password("w00tw00tWOO!") # should return False; everything OK!
     ```
