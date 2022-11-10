@@ -67,9 +67,9 @@ Here is an example run of a working final result:
 > choose a password: **password1**  
 > Yay - 'password1' is a valid password!  
         
-### ex-03: isosceles triangle
+### ex-03: right-angled triangle
 
-Design and write a complete Python program that prompts the user for a base, and then prints an isosceles triangle with that base width. If the input is **even** or **negative** then the program must terminate with an appropriate error message. 
+Design and write a complete Python program that prompts the user for a base, and then prints an right-angled triangle with that base width. If the input is **even** or **negative** then the program must terminate with an appropriate error message. 
 
 For example:
 
