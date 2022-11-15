@@ -15,11 +15,11 @@ _Shoutiness_ is a word I just made up that expresses how LOUD a string is, calcu
 For example:
 
 ```python
-"YO, WHAT IS UP?" # 10 capital letters / length of 15 = 1.5 shoutiness
+"YO, WHAT IS UP?" # 10 capital letters / length of 15 = 0.66666... shoutiness
 
 "i am meek" # 0 capital letters / length of 9 = 0 shoutiness
 
-"No, I'M Sparticus!" # 4 capital letters / length of 18 = 0.2222...
+"No, I'M Sparticus!" # 4 capital letters / length of 18 = 0.2222... shoutiness
 
 "" # assume the empty string is 0 shoutiness
 ```
