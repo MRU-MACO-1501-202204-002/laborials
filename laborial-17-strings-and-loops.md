@@ -72,7 +72,7 @@ Instead of explaining some complicated rules to explain how to calculate the val
 
 "yo" is equivalent to: (0 * 1) + (-1 * 10) = -10
 
-"xoyx" is equivalent to: (1 * 1) + (-1 * 10) + (o * 100) + (1 * 1000) = 991
+"xoyx" is equivalent to: (1 * 1) + (-1 * 10) + (0 * 100) + (1 * 1000) = 991
 ```
 
 I'd suggest using a while loop to do this exercise.
