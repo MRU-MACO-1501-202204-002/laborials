@@ -58,7 +58,7 @@ Gd lck!
 
 Although the for loop is pretty awesome, sometimes a while loop can lend itself to a solution more easily. It's best not to pooh-pooh something in a language - I've found invariably that thing I scorned actually is pretty useful. Sometimes.
 
-Make a function that takes in a string and a positive integer, n. It should return another version of that string, but with the letter at every multiple of n capitalized.
+Make a function that takes in a string and a positive integer, n. It should return another version of that string, but with the letter at every multiple of n capitalized. If n is 0, then just return the string, unaltered.
 
 ```python
 # assume function is called fun
