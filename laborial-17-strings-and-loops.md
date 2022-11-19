@@ -8,7 +8,7 @@ The following exercises will give you experience looping through strings using b
 
 ## Exercises
 
-### ex-01: shoutiness calculator 
+### ex-01: SHOUTINESS CALCULATOR 
 
 _Shoutiness_ is a word I just made up that expresses how LOUD a string is, calculated by taking the number of CAPITAL LETTERS IN THE STRING and dividing it by the length of that string.
 
