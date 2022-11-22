@@ -34,7 +34,6 @@ _Each of these functions will look similar with an **accumulator loop**. For the
 
 ## step-03: ponder error handling
 
-## Error handling
 The following errors are commonly encountered with file input. Think about how you might approach dealing with these issues.
 
 1. Open `trick_or_treaters.txt` in a text editor and add an **empty line** somewhere in the middle. Fix your function call so that it loading the appropriate file. What happens? How would you handle this error?
