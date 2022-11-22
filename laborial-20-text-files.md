@@ -36,6 +36,6 @@ _Each of these functions will look similar with an **accumulator loop**. For the
 
 The following errors are commonly encountered with file input. Think about how you might approach dealing with these issues.
 
-1. Open `trick_or_treaters.txt` in a text editor and add an **empty line** somewhere in the middle. Fix your function call so that it loading the appropriate file. What happens? How would you handle this error?
-1. Now, modify one of the lines of `trick_or_treaters.txt` so that it has a `float` instead of an `int` (e.g. change `30` to `30.0`). What kind of error occurs this time? How would you deal with it?
-1. Finally, modify `trick_or_treaters.txt` so that it has **two numbers** on one line. What kind of error happens this time? How would you handle this unexpected input?
+1. Open `laborial-20-trick-or-treat.txt` in a text editor and add an **empty line** somewhere in the middle. Fix your function call so that it loading the appropriate file. What happens? How would you handle this error?
+1. Now, modify one of the lines of `laborial-20-trick-or-treat.txt` so that it has a `float` instead of an `int` (e.g. change `30` to `30.0`). What kind of error occurs this time? How would you deal with it?
+1. Finally, modify `laborial-20-trick-or-treat.txt` so that it has **two numbers** on one line. What kind of error happens this time? How would you handle this unexpected input?
