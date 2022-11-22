@@ -2,6 +2,8 @@
 
 **Topic: working with text files**
 
+This lab will be VERY SIMILAR to your exercise-06 next week. Don't skip this puppy. And if you have any questions about anything going on here, don't put off asking them!
+
 ## Trick or Treat!
 
 The file `laborial-20-trick-or-treat.txt` contains counts of numbers of trick or treaters for 100 households over one Halloween night. Each line in the file contains a single integer.
