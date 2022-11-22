@@ -9,7 +9,7 @@ This tutorial is intended to familiarize you with the `list` datatype and method
 You may find the following methods or functions useful for ex-01. For a given list `a_list`:
 
 | Method or function                            | Description                                          |
-| --------------------------------------------- | ---------------------------------------------------- |
+|-----------------------------------------------|------------------------------------------------------|
 | `a_list = [element0, element1, ... elementN]` | Initializes the list with any number of elements     |
 | `a_list.append(element)`                      | Adds the element to the end of the list              |
 | `len(a_list)`                                 | Returns the length of the list                       |
@@ -20,7 +20,7 @@ You may find the following methods or functions useful for ex-01. For a given li
 Additionally, there are the following list operators:
 
 | Operator            | Description                                                           |
-| ------------------- | --------------------------------------------------------------------- |
+|---------------------|-----------------------------------------------------------------------|
 | `a_list[i]`         | Accesses the element at position `i` (read or write, but must exist!) |
 | `a_list == b_list`  | Evaluates to `True` if both lists contain the exact same elements     |
 | `a_list + b_list`   | Concatenates the two lists together                                   |
@@ -31,15 +31,19 @@ Additionally, there are the following list operators:
 
 ### ex-01: lists of strings
 
-1. Design and implement a Python function named `get_courses` that returns a **list of strings** containing student courses. Your function should behave as follows:
+1. Design and implement a Python function named `get_courses` that prompts the user repeatedly for courses, building a **list of strings** containing those courses. It should stop prompting when the user enters a blank line. It should then return the list of courses. 
+
+   Once you've built that function, use it in a simple `main` that calls your function and then displays how many courses were added and a list of the courses as well. Here's an example of the `main` in action:
+
    <pre>
    Enter the name of a course to add, or press Enter to finish: <b><u>COMP 1501</u></b>
    Enter the name of a course to add, or press Enter to finish: <b><u>MATH 1505</u></b>
    Enter the name of a course to add, or press Enter to finish:
-   2 courses added
+   2 courses added:
+   - COMP 1501
+   - MATH 1505
    </pre>
 
-   _Hint: the number of courses added will not always be 2 - this should be calculated._
 
 2. Assume that your previous function returns the following list:
    ```python
